@@ -1,0 +1,16 @@
+Action;p1, izazovi nekoga na pijani dvoboj. Ti i odabrani igrac pijete naizmenicno po gutljaj vaseg pica sve dok neko ne zavrsi.
+Drink;Ispij svoje pice do kraja.
+Drink;Shotgun-uj limenku nekog pica.
+Action;p1, uzmi gutljaj svakog drugacijeg tipa alkohola koji drugi igraci piju.
+Dodge;Uradi 2 dodge-a.
+Drink;Popij malo svog pica bez ruku.
+Drink;Ispij zajednicku casu.
+Action;Dodaj malo zestine u zajednicku casu.
+Drink;Izgovori brzalicu: "Četiri čavčića na čunčiću čučeći cijuču". Ako ne uspes, pijes.
+Action;p1 zameni svoju casu sa p2 koristeci trecu casu bez ruku.
+Action;p1 bira odakle ce p2 da pije body shot.
+Action;Zatvori oci, p2 te vrti pa te navodi ka zajednickoj casi. Te je ispi ako dodjes do nje.
+Action;Zatvori oci, p2 ti daje neko pice, moras da pogodis koje je, ako promasis pijes ga do kraja.
+Action;NE CITAJ NA GLAS: Zaprosi p2. Ako ne kazu da, pijes.
+Drink;p1 i p2 igraju pamtomime. Ako ne uspete da pogodite u roku od 30 sekundi, pijete.
+Action;p2 bira EESTEC osobu koja trenutno nije tu i smislja sta ce joj p1 reci preko telefona.

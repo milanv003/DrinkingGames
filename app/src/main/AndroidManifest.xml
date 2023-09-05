@@ -18,6 +18,10 @@
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:exported="false" />
         <activity
+            android:name=".DorDActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:exported="true">

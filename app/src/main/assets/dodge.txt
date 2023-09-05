@@ -1,0 +1,14 @@
+Buddy;p1 i p2 postaju pijani ortaci. Svaki put kad p1 pije, p2 takodje pije i obrnuto. (ali samo jedan dobija poene)
+Action;p1 bira sa kim ce da menja svoje pice. (pice ne sme da bude isto)
+Drink;p1, popi malo svog pica.
+Mercy;Ovu rundu prolazis nekaznjeno p1.
+Action;p2 te gadja praznom limenkom sa 7 metara. Ako te pogodi, pijes malo svog pica, ako promasi, p2 pije.
+Dare;Uradi dare.
+Action;p2 sipa pice p1 iz aviona.
+Action;Dodaj malo svog pica u zajednicku casu.
+Drink;Izgovori brzalicu: "Tri tigra, tri tigrice". Ako ne uspes, pijes.
+Drink;Izgovori brzalicu: "Riba ribi grize rep". Ako ne uspes, pijes.
+Action;p1 zapocni tekst neke pesme, p2 mora da nastavi, u suprotnom pije.
+Action;p1 pozovi neki restoran i rezervisi sto za igraca p2.
+Action;NE CITAJ NA GLAS: Isprobaj neki pickup line na p2. Ako im se ne svidi, pijes.
+Action;Pozovi nekog roditelja igraca i pitaj ih da li bi te usvojili.

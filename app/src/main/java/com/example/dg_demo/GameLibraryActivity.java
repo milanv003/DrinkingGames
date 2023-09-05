@@ -1,8 +1,10 @@
 package com.example.dg_demo;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.GestureDetector;
@@ -28,27 +30,33 @@ public class GameLibraryActivity extends AppCompatActivity {
 
         gestureDetector = new GestureDetector(this, new MyGestureListener());
 
+        diff.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                switch(chosenGame){
+                    case 1:
+                        Intent intent = new Intent(GameLibraryActivity.this, DorDActivity.class);
+                        startActivity(intent);
+                        break;
+                    case 2:
+                        //Pijazbuka
+                        break;
+
+                }
+            }
+        });
+
         imageView.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 gestureDetector.onTouchEvent(event); // Pass the touch event to the GestureDetector
                 return true; // Consume the touch event
             }
+
+
         });
 
-        imageView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                switch(chosenGame){
-                    case 1:
-                        //Doge Or Dare
-                        break;
-                    case 2:
-                        //Pijazbuka
-                        break;
-                }
-            }
-        });
+
 
     }
 
