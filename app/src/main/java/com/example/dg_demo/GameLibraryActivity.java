@@ -39,7 +39,12 @@ public class GameLibraryActivity extends AppCompatActivity {
                         startActivity(intent);
                         break;
                     case 2:
-                        //Pijazbuka
+                        Intent intent2 = new Intent(GameLibraryActivity.this, PijazbukaActivity.class);
+                        startActivity(intent2);
+                        break;
+                    case 3:
+                        Intent intent3 = new Intent(GameLibraryActivity.this, BlockbusterActivity.class);
+                        startActivity(intent3);
                         break;
 
                 }
@@ -70,6 +75,11 @@ public class GameLibraryActivity extends AppCompatActivity {
                 imageView.setImageResource(R.mipmap.pijazbuka_logo);
                 diff.setImageResource(R.mipmap.difficulty3);
                 break;
+            case 3:
+                imageView.setImageResource(R.mipmap.blockbuster_logo);
+                diff.setImageResource(R.mipmap.difficulty3);
+                break;
+
             // Add cases for other games
 
             default:
@@ -96,7 +106,7 @@ public class GameLibraryActivity extends AppCompatActivity {
                     // Swiped from right to left (increase chosenGame)
                     chosenGame++;
                     // Update the maximum value based on the number of games
-                    int maxGames = 2; // Update this to the actual number of games
+                    int maxGames = 3; // Update this to the actual number of games
                     if (chosenGame > maxGames) {
                         chosenGame = maxGames;
                     }

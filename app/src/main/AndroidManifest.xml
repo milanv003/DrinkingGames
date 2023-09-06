@@ -14,17 +14,28 @@
         android:theme="@style/Theme.DG_DEMO"
         tools:targetApi="31">
         <activity
-            android:name=".GameLibraryActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:name=".PijazbukaGameActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".PijazbukaActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".BlockbusterActivity"
             android:exported="false" />
+        <activity
+            android:name=".GameLibraryActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".DorDActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".MainActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
